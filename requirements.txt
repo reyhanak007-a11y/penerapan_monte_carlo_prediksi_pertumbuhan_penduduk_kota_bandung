@@ -27,6 +27,7 @@ Flask==3.1.2
 flask-cors==6.0.1
 fonttools==4.61.0
 fqdn==1.5.1
+gunicorn
 h11==0.16.0
 httpcore==1.0.9
 httpx==0.28.1
@@ -120,4 +121,5 @@ webencodings==0.5.1
 websocket-client==1.9.0
 Werkzeug==3.1.4
 widgetsnbextension==4.0.15
+
 
