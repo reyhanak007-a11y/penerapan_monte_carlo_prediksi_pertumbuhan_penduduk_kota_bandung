@@ -1,0 +1,16 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Prediksi Pekerjaan - Bandung</title>
+</head>
+<body>
+  <h1>Prediksi Distribusi Jenis Pekerjaan - Bandung</h1>
+  <p>Pilih jenis pekerjaan untuk melihat grafik prediksi:</p>
+  <ul>
+  {% for job in jobs %}
+    <li><a href="/plot/{{ job }}" target="_blank">{{ job }}</a></li>
+  {% endfor %}
+  </ul>
+</body>
+</html>
